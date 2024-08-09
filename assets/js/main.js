@@ -55,7 +55,8 @@
     let portfolioContainer = select('#portfolio-grid');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.item',
+         itemSelector: '.excel',
+        <!--itemSelector: '.item',-->
       });
 
       let portfolioFilters = select('#filters a', true);
